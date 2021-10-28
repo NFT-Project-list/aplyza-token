@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-aplyza{
+  background: linear-gradient(53deg, rgba(224,41,89,1) 0%, rgba(159,6,46,1) 100%);  width: 100%;
+}
+.container-fluid{
+  padding: 0 !important;
+}
+main{
+  margin: 0;
+}
+.navbar-nav .nav-link{
+  color: white !important;
+}
+.header{
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+  text-align: center;
+  min-height: 400px;
+}
+.header h1{
+  font-weight: bold;
+  font-size: 56px;
+}
+.header h5{
+  font-size: 24px;
+}
+.feature-box h1{
+  text-align: center;
+}
+.feature-box{
+  margin-top: 20px;
+  background: rgb(224,41,89);
+  background: linear-gradient(53deg, rgba(224,41,89,1) 0%, rgba(159,6,46,1) 100%);  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  height: 300px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.feature-box h4{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.feature-desc{
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tokenomic{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tokenomic h1,.tokenomic h2{
+  font-weight: bold;
+}
+#root{
+  width: 100%;
+}
+.roadmap h1{
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+}
+.roadmap{
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+ul.timeline {
+  width: 80%;
+  list-style-type: none;
+  position: relative;
+  left: +10%;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+  font-size: 18px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid rgba(224,41,89,1);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+.countdown {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.countdown h1{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.full-image{
+  width: 100%;
+}
+.footer{
+  background: rgba(224,41,89,1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.donation-detail{
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.footer h3{
+  color: white;
+  font-weight: bold;
+}
+.qr{
+  width: 50%;
+  max-width: 120px;
+}
+.footer-logo{
+  width: 50%;
+  max-width: 200px;
+  display: inline;
+}
+.social-list{
+  margin-top: 20px;
+}
+.social-icon{
+  font-size: 36px;
+  color: white;
+  margin: 10px;
+}
+.copyright{
+  margin-top: 10px;
+  color: white;
+  font-weight: lighter;
+}
+.blind-wrap{
+  width: 100%;
+  margin-top: 50px;
+}
+.blindbox{
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgba(159,6,46,1);
+}
+.apz{
+  color:  rgba(159,6,46,1);
+}
+.blindbox h5{
+  color:  rgba(159,6,46,1);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+.buttons{
+  margin-top: 10px;
+}
+.presale-count{
+  text-align: center;
+  font-weight: bold;
+  font-size: 64px;
+  width: 100%;
+}
+.presale h1{
+  text-align: center;
+  font-weight: bold;
+}
+.presale h5{
+  text-align: center;
+}
+.presale{
+  text-align: center;
+}
+.presale-btn{
+  width: 200px;
+}
+.presale-amt{
+  max-width: 400px;
+  margin: auto;
+}
+.nft-box{
+  width: 300px;
+  float: left;
+  background: black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.nft-box-detail{
+  width: 100%;
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.nft-box img{
+  width: 100%;
+}
+.nft-box h4{
+  margin-top: 10px;
+}
+.nft-stats-detail h1{
+  text-align: center;
+}
+.nft-stats-detail h5{
+  font-weight: lighter;
+}
+.nft-list{
+  margin: auto;
+}
